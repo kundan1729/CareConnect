@@ -1,61 +1,141 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+Perfect! Since you're using the **Corona Admin Dashboard template** for your Hospital Management System, we can update your `README.md` to highlight that. This gives it a more polished and professional touch — especially if someone else is reviewing your work or you're showing it off in a portfolio.
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Here’s the **updated complete README.md** with a dedicated section about the **Corona Dashboard Template**:
 
-## About Laravel
+---
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+```markdown
+# 🏥 Hospital Management System
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+This is a **Hospital Management System** built using **Laravel + Jetstream**, enhanced with the **Corona Admin Dashboard** for a modern, responsive UI experience. It streamlines core hospital operations such as appointment booking, attendance tracking, and user management.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+---
 
-## Learning Laravel
+## ✨ Features
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+- 🔐 **Jetstream Authentication**
+  - Login, Registration, Email Verification
+  - Profile Management
+  - Two-Factor Authentication (2FA)
+  - Session Management
+- 👨‍⚕️ Doctor & Staff Dashboard
+- 📅 Patient Appointment Booking
+- 📊 Admin Panel with Corona Dashboard UI
+- 🧾 Payment System (Coming Soon)
+- 🌐 Fully Responsive UI (Tailwind + Corona Template)
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+---
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## 🎨 Admin Dashboard UI
 
-## Laravel Sponsors
+This project integrates the **[Corona Admin Dashboard](https://www.bootstrapdash.com/product/corona-admin-template/)** for an elegant and intuitive user interface. It includes:
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+- Sidebar navigation
+- Interactive charts
+- Cards and widgets for key metrics
+- Light/Dark Mode ready
 
-### Premium Partners
+---
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development/)**
-- **[Active Logic](https://activelogic.com)**
+## 🚀 Deployed Link
 
-## Contributing
+[![Coming Soon](https://img.shields.io/badge/Deployed-Link--Coming%20Soon-orange?style=for-the-badge&logo=laravel)](#)
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+> 🌐 **Live demo is coming soon! Stay tuned for updates.**
 
-## Code of Conduct
+---
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## 🛠️ Tech Stack
 
-## Security Vulnerabilities
+- **Backend**: Laravel 10 + Jetstream
+- **Frontend**: Blade, Tailwind CSS, Corona Admin Template
+- **Authentication**: Laravel Jetstream (Livewire or Inertia.js)
+- **Database**: MySQL
+- **Other Tools**: Laravel Sanctum, Composer, NPM
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+---
 
-## License
+## ⚙️ Installation
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+```bash
+git clone https://github.com/kundan1729/hospital-management.git
+cd hospital-management
+composer install
+npm install && npm run build
+cp .env.example .env
+php artisan key:generate
+```
+
+### 🛢️ Configure your `.env` file
+
+Update the following lines in `.env` with your DB credentials:
+
+```env
+DB_DATABASE=hospital
+DB_USERNAME=root
+DB_PASSWORD=your_password
+```
+
+### 🗄️ Run migrations
+
+```bash
+php artisan migrate
+```
+
+### 🚀 Serve the application
+
+```bash
+php artisan serve
+```
+
+Visit `http://localhost:8000` to view the app.
+
+---
+
+## 👨‍⚕️ User Roles
+
+- **Admin**: Manage doctors, staff, appointments, and system settings.
+- **Doctor**: View appointments, manage patient records, mark attendance.
+- **Staff**: Assist with hospital operations and attendance.
+- **Patient**: Register, login, and book appointments.
+
+---
+
+## 📸 Screenshots
+![Uploading image.png…]()
+
+![image](https://github.com/user-attachments/assets/62ec708d-0528-4fa6-8c4d-ebdf7a248fd3)
+
+![Screenshot 2025-04-25 221824](https://github.com/user-attachments/assets/c143e982-ef8c-42c8-b95f-932d4678b052)
+![Screenshot 2025-04-25 222143](https://github.com/user-attachments/assets/4d942c05-b15e-45de-a749-5e8c11f464bd)
+
+![Screenshot 2025-04-25 222244](https://github.com/user-attachments/assets/35115d1e-e7dc-4810-8e9e-dc68cf061bbf)
+![Screenshot 2025-04-25 222256](https://github.com/user-attachments/assets/436e2df5-22e9-4dba-aa0d-95747e940b97)
+
+
+
+
+_ currntly working on admin dasboard  UI ,screen Coming soon…_
+
+---
+
+## 👨‍💻 Author
+
+**Kundan Kumar**  
+GitHub: [@kundan1729](https://github.com/kundan1729)
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+```
+
+---
+
+Let me know if:
+- You want to add dashboard screenshots with the Corona template in action
+- You’d like a markdown badge for Corona Admin
+- You're ready to replace the "Coming Soon" with your deployed URL
+
+Great work combining Jetstream and Corona — that's a power move! 🔥
