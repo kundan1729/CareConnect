@@ -98,7 +98,8 @@ Visit `http://localhost:8000` to view the app.
 ---
 
 ## 📸 Screenshots
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/515fd0cd-3a7c-4e4f-a5d5-0e94d4495776)
+
 
 ![image](https://github.com/user-attachments/assets/62ec708d-0528-4fa6-8c4d-ebdf7a248fd3)
 
