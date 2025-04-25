@@ -1,8 +1,4 @@
-Perfect! Since you're using the **Corona Admin Dashboard template** for your Hospital Management System, we can update your `README.md` to highlight that. This gives it a more polished and professional touch — especially if someone else is reviewing your work or you're showing it off in a portfolio.
 
-Here’s the **updated complete README.md** with a dedicated section about the **Corona Dashboard Template**:
-
----
 
 ```markdown
 # 🏥 Hospital Management System
